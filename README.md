@@ -1,4 +1,4 @@
-# Insert Lesson Title
+# 2.8: Unidirectional Data Flow
 
 ## Dependencies
 
@@ -10,10 +10,16 @@ Refer to the following markdown file for the respective sections of the class:
 ## Lesson Objectives
 
 Learners will understand:
-- Insert the knowledge to be acquired
+- What is unidirectional data flow in React
+- What is inverse data flow
+- How to create list of array items in a component
+- Separation of *Container* and *Presentational* components
 
 Learners will be able to:
-- Insert the skillset to be acquired
+- Implement container and presentational components
+- Pass an array from parent to child components
+- View array items in the child component 
+- Delete array items in the parent component, via its child
 
 
 ## Lesson Plan
