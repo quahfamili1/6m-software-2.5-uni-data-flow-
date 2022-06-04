@@ -1,10 +1,10 @@
-import styles from './Counter.module.css'
+import styles from './Product.module.css'
 
 import { useState } from 'react';
 import Button from './Button';
 import Input from './Input';
 
-function Counter() {
+function Product() {
   const [count, setCount] = useState(0);
   const [discount, setDiscount] = useState(0);
   const [name, setName] = useState('Banana');
@@ -59,4 +59,4 @@ function Counter() {
     </div>
   );
 }
-export default Counter;
+export default Product;
