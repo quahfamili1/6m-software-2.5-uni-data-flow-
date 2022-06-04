@@ -16,28 +16,26 @@ Learners will understand:
 - Separation of *Container* and *Presentational* components
 
 Learners will be able to:
-- Implement container and presentational components
+- Refactor a complex component into its container and presentational components
+- Implement callback functions to share state data
 - Pass an array from parent to child components
 - View array items in the child component 
-- Delete array items in the parent component, via its child
 
 
 ## Lesson Plan
 
 |Duration|What|How or Why|
 |--------|-----|-------|
-|- 5mins |Start zoom session|So that students can join early and start class on time|
-|10 mins|Self studies check-in|Prepare 3 questions for students to answer as a form of warm up and engaging students with the lesson topic.|
-|30 mins|Conceptual Knowledge| Instructors brief students on the subject matter conceptually before diving into hands on. This section can be shorter but not longer. Use video clips for explanation if necessary.|
-|20 mins|Code Along| Practical hands on|
+|- 5mins |Start zoom session||
+|10 mins|Self studies check-in||
+|10 mins|Lecture|Explanation of unidirectional data flow in React|
+|35 mins|Part 1|Refactor starter parent code to container and presentational components |
 ||**1 HR MARK**|
-|5 mins|Break|Break|
-|40 mins|Code Along| Practical hands on|
-|5 mins|Buffer|In case of overrun|
 |5 mins|Break||
-|5 mins|Assignment Briefing|Help students to understand the expectation and direction of the assignment to prevent mis-interpretations.|
+|25 mins|Part 2|Generate `Product` item list array|
+|30 mins|Part 3|Create `ViewList` child component|
 ||**2 HR MARK**|
-|50 mins|Learners self attempt on assignments|
-|10 mins|Instructors assist learners to push changes to remote repository.|
+|5 mins|Break||
+|55 mins|Assignment|Extra features challenge|
 ||**END CLASS 3 HR MARK**|
 

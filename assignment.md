@@ -2,7 +2,19 @@
 
 ### Brief
 
-Enter instruction for assignment here.
+Add the following features into the React web app:
+- Add new columns to the ViewList table:
+  - quantity
+  - discount
+- Show the total price for each item row, including discount
+- Show the sum total of all items in the table
+- Show and compare sum with discount savings, in actual $
+
+Some tips:
+- Keep all calculations (business logic) in the higher-order `Product` component
+- Update `ViewList` when adding new table columns
+- As much as possible, keep the container and presentational components separated
+
 
 ### Submission 
 
