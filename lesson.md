@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Clone the [lesson repo](https://github.com/su-ntu-ctp/6m-software-2.8-uni-data-flow.git) from GitHub. Change to the `app` folder copy the `begin` sub-folder into a working folder, e.g. `work`. Change into your work folder and start the React app.
+Fork and clone the [lesson repo](https://github.com/su-ntu-ctp/6m-software-2.8-uni-data-flow.git) from GitHub. Change to the `app` folder copy the `begin` sub-folder into a working folder, e.g. `work`. Change into your work folder and start the React app.
 
 ```
 cd work
@@ -18,11 +18,11 @@ For this session, we will continue where we left off with passing functions as p
 
 In React, data flows in a single-direction, from a parent to a child component. Parent components will manage states which can only affect its children components. Child components may receive the state values as read-only props and are not able to change the state of its parent or siblings, i.e. props are immutable.
 
-If a child component has actions that would change the state of its parent in anyway, e.g. an input component that receives user keystrokes, it must relay the result back to the parent. The state change is triggered via a callback function that is sent from the parent as a prop. Such a callback function is usually a handler that would call the `useState` update function to change the state, i.e. *inverse data flow*.
+If a child component has actions that would change the state of its parent in any way, e.g. an input component that receives user keystrokes, it must relay the result back to the parent. The state change is triggered via a callback function that is sent from the parent as a prop. Such a callback function is usually a handler that would call the `useState` update function to change the state, i.e. *inverse data flow*.
 
 ![Uni-directional Data Flow](./assets/uni-data-flow.png)
 
-Once the parents state is updated, it will propagate to the rest of the children under its component tree. The children components will then update its own internal views according to the new state update.
+Once the parent's state is updated, it will propagate to the rest of the children under its component tree. The children components will then update its own internal views according to the new state update.
 
 This completes the Action-State-View cycle in the component tree, until the next action is triggered.
 
@@ -155,7 +155,7 @@ Create a JSX list of table elements using the ES6 `Array.map()` method as follow
   ...
 ```
 
-The `map` method go through each item in the list array and assigns a `<tr>` table row element, which contains two data cells, name and price. The `key` attribute in each row is required by React to keep track of changes in the `list` elements in the Virtual DOM. 
+The `map` method goes through each item in the list array and assigns a `<tr>` table row element, which contains two data cells, name and price. The `key` attribute in each row is required by React to keep track of changes in the `list` elements in the Virtual DOM. 
 
 > In real-world applications, the React community recommmends using truly unique IDs as list keys, instead of using index keys (i). However, we are keeping things simple for the purpose of this exercise and will re-visit this topic in more detail in later chapters. 
 
