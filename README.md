@@ -1,4 +1,4 @@
-# 2.8: Unidirectional Data Flow
+# 2.5: Uni-directional Data Flow
 
 ## Dependencies
 
@@ -37,5 +37,5 @@ Learners will be able to:
 ||**2 HR MARK**|
 |5 mins|Break||
 |55 mins|Assignment|Extra features challenge|
-||**END CLASS 3 HR MARK**|
+||**3 HR MARK - END CLASS**|
 
