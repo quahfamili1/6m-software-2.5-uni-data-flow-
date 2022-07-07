@@ -30,12 +30,12 @@ Learners will be able to:
 |10 mins|Self studies check-in||
 |10 mins|Lecture|Explanation of unidirectional data flow in React|
 |35 mins|Part 1|Refactor starter parent code to container and presentational components |
-||**1 HR MARK**|
+|||**1 HR MARK**|
 |5 mins|Break||
 |25 mins|Part 2|Generate `Product` item list array|
 |30 mins|Part 3|Create `ViewList` child component|
-||**2 HR MARK**|
+|||**2 HR MARK**|
 |5 mins|Break||
 |55 mins|Assignment|Extra features challenge|
-||**3 HR MARK - END CLASS**|
+|||**3 HR MARK - END CLASS**|
 
