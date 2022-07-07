@@ -1,4 +1,4 @@
-# 2.5: Uni-directional Data Flow
+# 2.5 Uni-directional Data Flow
 
 ## Preparation
 
