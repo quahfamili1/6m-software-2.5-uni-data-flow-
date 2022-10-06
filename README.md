@@ -16,9 +16,9 @@ Learners will understand:
 - Separation of *Container* and *Presentational* components
 
 Learners will be able to:
-- Refactor a complex component into its container and presentational components
+- Refactor complex components into their containers and presentational components
 - Implement callback functions to share state data
-- Pass an array from parent to child components
+- Pass arrays from parent to child components
 - View array items in the child component 
 
 
