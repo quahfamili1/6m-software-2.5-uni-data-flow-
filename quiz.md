@@ -33,7 +33,7 @@
 ### Q5: What does it mean to "lift state up"?
 
 - A: To make a state visible to other components.
-- B: To toggle the visibility of the state within it's component.
+- B: To toggle the visibility of the state within its component.
 - C: To encapsulate the state and expose the data to be modified via a function.
 - D: Storing the state in the common ancestral component.
 
