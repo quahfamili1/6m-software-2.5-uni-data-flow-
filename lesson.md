@@ -8,7 +8,7 @@ Fork and clone the [lesson repo](https://github.com/su-ntu-ctp/6m-software-2.8-u
 cd work
 npm start
 ```
-The starting code is basically the same code we saw earlier, with `Counter` now renamed as `Product, and additional input field and `Add Product` button at the bottom of the page.
+The starting code is basically the same code we saw earlier, with `Counter` now renamed as `Product`, and additional input field and `Add Product` button at the bottom of the page.
 
 ## Lesson Overview
 
@@ -105,7 +105,7 @@ const handlerAddProduct = () => {
 
 ```
 
-> Since `list` is an immutable object, you cannot simply `push` a new item onto the the existing state `list`. You must make a copy of the original list with the added new item before updating the whole `list` using the update function `setLIst`.
+> Since `list` is an immutable object, you cannot simply `push` a new item onto the the existing state `list`. You must make a copy of the original list with the added new item before updating the whole `list` using the update function `setList`.
 
 ## Part 3: Create ViewList Component
 
