@@ -28,6 +28,8 @@ This completes the Action-State-View cycle in the component tree, until the next
 
 ![Action-State-View](./assets/view-actions-state.png)
 
+> Source: https://flaviocopes.com/react-unidirectional-data-flow/
+
 A good practice when designing React components is to generalise them into two categories of components:
 
 - Presentational
