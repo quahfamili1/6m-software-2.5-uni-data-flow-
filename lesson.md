@@ -20,7 +20,7 @@ In React, data flows in a single-direction, from a parent to a child component. 
 
 If a child component has actions that would change the state of its parent in any way, e.g. an input component that receives user keystrokes, it must relay the result back to the parent. The state change is triggered via a callback function that is sent from the parent as a prop. Such a callback function is usually a handler that would call the `useState` update function to change the state, i.e. *inverse data flow*.
 
-![Uni-directional Data Flow](./assets/uni-data-flow.png)
+![Uni-directional Data Flow](./assets/parent-child-data-callback.png)
 
 Once the parent's state is updated, it will propagate to the rest of the children under its component tree. The children components will then update its own internal views according to the new state update.
 
@@ -54,7 +54,7 @@ Containers contain the business logic of the application. They can make API call
 
 ## Part 1: Refactor the Parent Component
 
-Refactor 'Product.js' by splitting up the component into smaller logical container and presentational components. The starter 'Product' component relationship looks like the following:
+Refactor `Product.js` by splitting up the component into smaller logical container and presentational components. The starter `Product` component relationship looks like the following:
 
 ![Product component relationship diagram](assets/components-begin.png)
 
@@ -67,7 +67,7 @@ Refactor `Product` and move the presentational parts into a new `Card` component
 - Receives data and handler functions from `Product` as props
 - Displays data output
 - Accepts user input using `Input`
-- Provision a new `View` component to display product data
+- Provision a new `ViewList` component to display product data
 
 ![Final Product](assets/components-final.png)
 
