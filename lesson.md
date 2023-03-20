@@ -6,6 +6,7 @@ Fork and clone the [lesson repo](https://github.com/su-ntu-ctp/6m-software-2.8-u
 
 ```
 cd work
+npm install
 npm start
 ```
 The starting code is basically the same code we saw earlier, with `Counter` now renamed as `Product`, and additional input field and `Add Product` button at the bottom of the page.
