@@ -2,7 +2,7 @@
 
 ## Preparation
 
-Fork and clone the [lesson repo](https://github.com/su-ntu-ctp/6m-software-2.8-uni-data-flow.git) from GitHub. Change to the `app` folder copy the `begin` sub-folder into a working folder, e.g. `work`. Change into your work folder and start the React app.
+Fork and clone the [lesson repo](https://github.com/su-ntu-ctp/6m-software-2.8-uni-data-flow.git) from GitHub. Change to the `code` folder copy the `begin` sub-folder into a working folder, e.g. `work`. Change into your work folder and start the React app.
 
 ```
 cd work
@@ -116,7 +116,7 @@ The `ViewList` component shall receive a list of items from `Product` and displa
 
 The product list array is stored as a state variable, `list` that cam be sent to the `ViewList` child component as a prop. Since `ViewList` is a *presentational component*, its single job is simply display the content of the `list` array.
 
-Start by creating a new `ViewList.js` file and its corresponding `ViewList.module.css` style sheet in the `components` folder. You may copy the CSS from this [file](./app/final/src/components/ViewList.module.css).
+Start by creating a new `ViewList.js` file and its corresponding `ViewList.module.css` style sheet in the `components` folder. You may copy the CSS from this [file](./code/final/src/components/ViewList.module.css).
 
 
 ```js
@@ -162,5 +162,5 @@ The `map` method goes through each item in the list array and assigns a `<tr>` t
 
 > In real-world applications, the React community recommmends using truly unique IDs as list keys, instead of using index keys (i). However, we are keeping things simple for the purpose of this exercise and will re-visit this topic in more detail in later chapters. 
 
-Refer to [app/final folder](./app/final/) for the completed app with basic functionality.
+Refer to [app/final folder](./code/final/) for the completed app with basic functionality.
 
