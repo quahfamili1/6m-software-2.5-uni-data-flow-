@@ -14,7 +14,7 @@ function ViewList({ list, sum }) {
           </tr>
         </thead>
         <tbody>
-          {list.map((item, i) => (
+          {list?.map((item, i) => (
             <tr key={i}>
               <td>{item.name}</td>
               <td>{item.quantity}</td>
