@@ -29,6 +29,7 @@ function Card({
       </div>
       <Button label="Add Product" onClick={handlerAddProduct} />
     </div>
+  
   );
 }
 export default Card;
